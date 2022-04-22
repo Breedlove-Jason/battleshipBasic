@@ -26,7 +26,7 @@ while (isSunk === false) {
         if (hits === 3) {
             isSunk = true;
             alert('You sank my battleship!');
-            alert("You took " + guesses + " guesses to sink the battleship!");
+            alert("You took " + guesses + " guesses to sink the battleship! Your firing accuracy was " + (3 / guesses) * 100 + "%");
         }
     }
 }
