@@ -1,7 +1,7 @@
 'use strict';
 
 //declare 3 variables to hold enemy ship locations. each ship takes sup 3 spaces in the grid
-let location1 = Math.trunc(Math.random() * 6);
+let location1 = Math.floor(Math.random() * 5);
 let location2 = location1 + 1;
 let location3 = location2 + 1;
 console.log(location1, location2, location3);
